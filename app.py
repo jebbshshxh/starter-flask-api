@@ -4,6 +4,7 @@ import json
 try:
   from bs4 import BeautifulSoup
 except:
+  import os
   os.system('pip install bs4')
 
 app = Flask(__name__)
