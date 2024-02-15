@@ -1,11 +1,7 @@
 from flask import Flask, request
 import requests
 import json
-try:
-  from bs4 import BeautifulSoup
-except:
-  import os
-  os.system('pip install bs4')
+from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
